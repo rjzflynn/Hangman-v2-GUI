@@ -29,7 +29,7 @@ public class MusicPlayer {
             
         try {
             String s = getClass().getResource("/hangman_mvc/Music/" + path + ".mp3").toString();
-            s = s.substring(6);                    //removes the "file: /" prefix attachey by the .getResource method
+            s = s.substring(6);                    //removes the "file: /" prefix attached by the .getResource method
             s = s.replaceAll("%20", " ");          //match String to how .mp3 files are named
              
             fIS = new FileInputStream(s);
