@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package hangman_mvc;
 
 public class WordGenerator {
@@ -17,11 +14,7 @@ public class WordGenerator {
         return this.wordList[ (int) (Math.random() * wordList.length)];
     }
 
-//Random
-//Lord of The Rings
-//Philosophers
-//Great Historical Figures
-    
+
     public String getWord(String catagory) {
         switch (catagory) {
 
