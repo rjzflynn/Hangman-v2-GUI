@@ -8,12 +8,6 @@ public class LivesBar {
     
     GameModel gameModel;
     
-//    String oneLive = "/hangman_mvc/Images/1lives.png";
-//    String twoLives = "/hangman_mvc/Images/1lives.png";
-//    String threeLives = "/hangman_mvc/Images/1lives.png";
-//    String fourLives = "/hangman_mvc/Images/1lives.png";
-//    String fiveLives = "/hangman_mvc/Images/1lives.png";
-//    String sixLives = "/hangman_mvc/Images/1lives.png";
 
     public LivesBar(GameModel gameModel) {
         this.gameModel = gameModel;
